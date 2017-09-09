@@ -4,7 +4,7 @@ namespace {
     $arrayFirstVersion = '5.2';
 }
 
-namespace Dingo\Blueprint {
+namespace Afroware\Blueprint {
 
     use PHPUnit_Framework_TestCase;
     use Illuminate\Support\Collection;

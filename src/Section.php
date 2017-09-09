@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint;
+namespace Afroware\Blueprint;
 
 use Illuminate\Support\Collection;
 
@@ -16,7 +16,7 @@ abstract class Section
     protected function getAnnotationByType($type)
     {
         return array_first($this->annotations, function ($key, $annotation) use ($type) {
-            $type = sprintf('Dingo\\Blueprint\\Annotation\\%s', $type);
+            $type = sprintf('Afroware\\Blueprint\\Annotation\\%s', $type);
 
             return is_object($annotation) ? $annotation instanceof $type : $key instanceof $type;
         });

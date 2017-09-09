@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint\Annotation;
+namespace Afroware\Blueprint\Annotation;
 
 /**
  * @Annotation

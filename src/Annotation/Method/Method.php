@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint\Annotation\Method;
+namespace Afroware\Blueprint\Annotation\Method;
 
 abstract class Method
 {

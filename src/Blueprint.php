@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint;
+namespace Afroware\Blueprint;
 
 use ReflectionClass;
 use RuntimeException;
@@ -56,11 +56,11 @@ class Blueprint
      */
     protected function registerAnnotationLoader()
     {
-        $this->reader->addNamespace('Dingo\\Blueprint\\Annotation');
-        $this->reader->addNamespace('Dingo\\Blueprint\\Annotation\\Method');
+        $this->reader->addNamespace('Afroware\\Blueprint\\Annotation');
+        $this->reader->addNamespace('Afroware\\Blueprint\\Annotation\\Method');
 
         AnnotationRegistry::registerLoader(function ($class) {
-            $path = __DIR__.'/'.str_replace(['Dingo\\Blueprint\\', '\\'], ['', DIRECTORY_SEPARATOR], $class).'.php';
+            $path = __DIR__.'/'.str_replace(['Afroware\\Blueprint\\', '\\'], ['', DIRECTORY_SEPARATOR], $class).'.php';
 
             if (file_exists($path)) {
                 require_once $path;
@@ -267,8 +267,8 @@ class Blueprint
      * Append a response subsection to an action.
      *
      * @param string                               $contents
-     * @param \Dingo\Blueprint\Annotation\Response $response
-     * @param \Dingo\Blueprint\Resource            $resource
+     * @param \Afroware\Blueprint\Annotation\Response $response
+     * @param \Afroware\Blueprint\Resource            $resource
      *
      * @return void
      */
@@ -297,8 +297,8 @@ class Blueprint
      * Append a request subsection to an action.
      *
      * @param string                              $contents
-     * @param \Dingo\Blueprint\Annotation\Request $request
-     * @param \Dingo\Blueprint\Resource           $resource
+     * @param \Afroware\Blueprint\Annotation\Request $request
+     * @param \Afroware\Blueprint\Resource           $resource
      *
      * @return void
      */

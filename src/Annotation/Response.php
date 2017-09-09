@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint\Annotation;
+namespace Afroware\Blueprint\Annotation;
 
 /**
  * @Annotation
@@ -28,7 +28,7 @@ class Response
     public $headers = [];
 
     /**
-     * @var array<Dingo\Blueprint\Annotation\Attribute>
+     * @var array<Afroware\Blueprint\Annotation\Attribute>
      */
     public $attributes;
 }

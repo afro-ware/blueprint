@@ -1,8 +1,8 @@
 <?php
 
-namespace Dingo\Blueprint\Tests;
+namespace Afroware\Blueprint\Tests;
 
-use Dingo\Blueprint\Blueprint;
+use Afroware\Blueprint\Blueprint;
 use PHPUnit_Framework_TestCase;
 use Illuminate\Support\Collection;
 use Illuminate\Filesystem\Filesystem;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint;
+namespace Afroware\Blueprint;
 
 use RuntimeException;
 use ReflectionMethod;
@@ -25,7 +25,7 @@ class Action extends Section
     /**
      * Parent resource of the action.
      *
-     * @var \Dingo\Blueprint\Resource
+     * @var \Afroware\Blueprint\Resource
      */
     protected $resource;
 
@@ -66,7 +66,7 @@ class Action extends Section
     /**
      * Get the actions version annotation.
      *
-     * @return \Dingo\Blueprint\Annotation\Versions|null
+     * @return \Afroware\Blueprint\Annotation\Versions|null
      */
     public function getVersions()
     {
@@ -78,7 +78,7 @@ class Action extends Section
     /**
      * Get the actions response annotation.
      *
-     * @return \Dingo\Blueprint\Annotation\Response|null
+     * @return \Afroware\Blueprint\Annotation\Response|null
      */
     public function getResponse()
     {
@@ -90,7 +90,7 @@ class Action extends Section
     /**
      * Get the actions request annotation.
      *
-     * @return \Dingo\Blueprint\Annotation\Request|null
+     * @return \Afroware\Blueprint\Annotation\Request|null
      */
     public function getRequest()
     {
@@ -102,7 +102,7 @@ class Action extends Section
     /**
      * Get the actions transaction annotation.
      *
-     * @return \Dingo\Blueprint\Annotation\Transaction|null
+     * @return \Afroware\Blueprint\Annotation\Transaction|null
      */
     public function getTransaction()
     {
@@ -178,7 +178,7 @@ class Action extends Section
     /**
      * Set the parent resource on the action.
      *
-     * @param \Dingo\Blueprint\Resource $resource
+     * @param \Afroware\Blueprint\Resource $resource
      *
      * @return void
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dingo\Blueprint;
+namespace Afroware\Blueprint;
 
 use Illuminate\Filesystem\Filesystem;
 
