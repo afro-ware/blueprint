@@ -1,6 +1,5 @@
 # API Blueprint Generator
-
-[![Build Status](https://img.shields.io/travis/afroware/blueprint/master.svg?style=flat-square)](https://travis-ci.org/afroware/blueprint)
+[![Build Status](https://travis-ci.org/afroware/blueprint.svg?branch=master)](https://travis-ci.org/afroware/blueprint)
 [![License](https://img.shields.io/packagist/l/afroware/blueprint.svg?style=flat-square)](https://packagist.org/packages/afroware/blueprint)
 ![Development Version](https://img.shields.io/packagist/vpre/afroware/blueprint.svg?style=flat-square)
 ![Monthly Installs](https://img.shields.io/packagist/dm/afroware/blueprint.svg?style=flat-square)
